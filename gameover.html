@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Game Over</title>
+  <style>
+    body {
+      background-image: url(https://epicorpg.com.br/wp-content/uploads/2019/03/caverna-complexo.gif);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .game-over {
+      background-color: #8b4513; /* Marrom */
+      color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      font-size: 24px;
+    }
+    .menu-btn{background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      height: 50px;
+      width: 50px;
+      cursor: pointer;
+    }
+  </style>
+  <script src="jogo_menu.js"></script>
+</head>
+<body>
+  <div class="game-over">
+    <h1>Game Over :/</h1>
+    <p>Infelizmente, você acertou o espinho 3 vezes.</p>
+    <p>Tente novamente!</p>
+    <button class="menu-btn" onclick="menu()">Menu</button>
+  </div>
+</body>
+</html>
